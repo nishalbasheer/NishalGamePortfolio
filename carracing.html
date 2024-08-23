@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Racing Android</title>
+    <link rel="stylesheet" href="/carracing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+    
+    <div class="content">
+        <h2>Car Racing</h2>
+        <h2>Car Racing</h2>
+    </div>
+
+    <div class="cardcontainer">
+        <div class="box">
+            <div class="card">
+                <h3>Game Overview</h3>
+                <p>This Car Racing Game is a mobile racing experience developed using Unity. Designed for quick and accessible gameplay,
+                     players race against AI opponents through various tracks, 
+                    aiming to cross the finish line first while navigating tight corners and challenging turns</p>
+
+                <h3>Game Mechanics</h3>
+                <p>The game features simple yet engaging car racing mechanics, with smooth controls and responsive handling. 
+                    Waypoint-based navigation guides players through the track, while AI-controlled opponents provide a competitive challenge.
+                     The focus is on delivering a fast-paced racing experience suitable for mobile play</p>
+
+                <h3>Visual Design</h3>
+                <p>The game’s visuals are optimized for mobile devices, featuring vibrant tracks and fluid animations</p>
+
+                <h3>Development Process</h3>
+                <p>Developed using Unity, this project involved creating a streamlined racing 
+                    experience with waypoint navigation and AI-driven opponents</p>
+                    <h3 class="gameplay">SCROLL DOWN TO WATCH SCREENSHOTS </h3>   
+            </div>
+        </div>
+    </div>
+    <svg>
+        <filter id="wavy">
+            <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="2"> 
+                <animate attributeName="baseFrequency" dur="60s" values="0.02;0.05;0.02" repeatCount="indefinite"></animate>
+            </feTurbulence>
+            
+            <feDisplacementMap in="SourceGraphic" scale="30"></feDisplacementMap>
+        </filter>
+    </svg>
+
+    
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="/assets/Projects/car.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="/assets/Projects/car2.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="/assets/Projects/car3.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="/assets/Projects/car4.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="/assets/Projects/car5.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    
+     
+    <script src="portfolio.js"></script>
+    
+ 
+
+ 
+</body>
+</html>

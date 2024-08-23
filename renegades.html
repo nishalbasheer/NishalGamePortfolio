@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="renegades.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+    <title>Renegades</title>
+</head>
+<body>
+  
+    
+    
+    <div class="content">
+        <h2>Renegades</h2>
+        <h2>Renegades</h2>
+    </div>
+
+    <div class="cardcontainer">
+        <div class="box">
+            <div class="card">
+                <h3>Renegades</h3>
+                <p>Renegades is a third-person shooter (TPS) mobile game developed using Unity, 
+                    focusing on core mechanics like firing and character movement</p>
+
+                <h3>Game Mechanics</h3>
+                <p>Renegades features essential TPS mechanics, including precise firing controls and smooth character locomotion. 
+                    The game’s straightforward controls allow players to aim, shoot, 
+                    and move with ease, ensuring an accessible and engaging experience on mobile device</p>
+
+                <h3>Visual Design</h3>
+                <p>The game’s visuals are optimized for mobile platforms, featuring clear character models and dynamic environments.</p>
+
+                <h3>Development Process</h3>
+                <p>Renegades allowed me to master the fundamentals of TPS game design on mobile</p>
+                <h3 class="gameplay">SCROLL DOWN TO WATCH SCREENSHOTS </h3>   
+            </div>
+        </div>
+    </div>
+    <svg>
+        <filter id="wavy">
+            <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="2"> 
+                <animate attributeName="baseFrequency" dur="60s" values="0.02;0.05;0.02" repeatCount="indefinite"></animate>
+            </feTurbulence>
+            
+            <feDisplacementMap in="SourceGraphic" scale="30"></feDisplacementMap>
+        </filter>
+    </svg>
+ 
+
+    
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="/assets/Projects/renegades (1).jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="/assets/Projects/renegades (2).jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="/assets/Projects/renegades (3).jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="/assets/Projects/renegades4.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="/assets/Projects/renegades5.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    
+     
+    <script src="portfolio.js"></script>
+    
+
+</body>
+</html>

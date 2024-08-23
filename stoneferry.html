@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stoneferry.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+    <title>Stone Ferry</title>
+</head>
+<body>
+
+    
+    
+    <div class="content">
+        <h2>Stone Ferry</h2>
+        <h2>Stone Ferry</h2>
+    </div>
+
+    <div class="cardcontainer">
+        <div class="box">
+            <div class="card">
+                <h3>Game Overview</h3>
+                <p>Stone Ferry is a Unity URP project where I recreated my local area in a virtual environment.
+                     The game focuses on exploration, allowing players to navigate familiar streets and landmarks</p>
+
+                <h3>Game Mechanics</h3>
+                <p>Stone Ferry features basic gameplay mechanics, including simple locomotion and a car system for exploration</p>
+
+                <h3>Visual Design</h3>
+                <p>Utilizing Unity URP, the game’s visuals aim to capture the essence of the local area, 
+                    with detailed textures and realistic lighting.</p>
+
+                <h3>Development Process</h3>
+                <p>Stone Ferry was developed using Unity URP with a focus on accurate environmental design.</p>
+                <h3 class="gameplay">SCROLL DOWN TO WATCH SCREENSHOTS </h3>   
+            </div>
+        </div>
+    </div>
+    <svg>
+        <filter id="wavy">
+            <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="2"> 
+                <animate attributeName="baseFrequency" dur="60s" values="0.02;0.05;0.02" repeatCount="indefinite"></animate>
+            </feTurbulence>
+            
+            <feDisplacementMap in="SourceGraphic" scale="30"></feDisplacementMap>
+        </filter>
+    </svg>
+
+    
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="/assets/Projects/stoneferry (1).png" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="/assets/Projects/stoneferry (2).png" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="/assets/Projects/stoneferry3.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="/assets/Projects/stoneferry4.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    
+     
+    <script src="portfolio.js"></script>
+    
+</body>
+</html>
